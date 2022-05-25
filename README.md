@@ -1,6 +1,6 @@
 # Proje-son-hali
 Bu projede amaç silah atıcısının atış doğruluğunu arttırmaktı. Bu hedefi parametreleri özelleştirilmiş makine öğrenmesi modeli oluşturup gerçekleştirdik. Model vücuda takılı olan 2 adet IMU sensörden aldığı veriler ile beslenmekte. Sistem gerçek zamanlı olarak bir adet esp32 kart üstünde çalışmakta. 
-
+Bu projede dataset toplama işlemini FreeTarget adlı bir poligon sistemi ile gerçekleştirdik. FreeTarget sistemi kısaca bir hedef tahtasının etrafına yerleştirilmiş 4 adet mikrofon ile gelen merminin mikrofonlara olan uzaklarını ölçerek, hedef tahtası üstünde hangi konumda olduğunu hesaplar. Sistem donanımı FreeTarget yürütücüsü tarafından tarafımıza sponsere edilmiştir, donanım optimizasyonu ekibimiz tarafından yapılmıştır.
 ****main.py dosyası makine öğrenmesi modelini C koduna dönüştürür****
 ****csc dosyası sistemin bacakta olan esp'sinde çalışan koddur***
 ***rass_rd dosyası sistemin dürbünde olan esp'sinde çalışan koddur***
@@ -11,3 +11,7 @@ We achieved this goal by creating a customized machine learning model with param
 ****main.py file converts machine learning model to C code****
 ****csc file is the code that runs on the shooter's leg esp***
 ***rass_rd file is the code that runs in the shooter's binocular esp*** 
+
+
+
+
